@@ -1,5 +1,5 @@
-FROM                                   centos:7.1.1503
-MAINTAINER                             John Else <john.else@citrix.com>
+FROM centos:7.1.1503
+MAINTAINER Tsong khapa <ztd811@yahoo.com>
 
 # Update yum.conf - not default!
 COPY    files/yum.conf                 /etc/yum.conf.xs
